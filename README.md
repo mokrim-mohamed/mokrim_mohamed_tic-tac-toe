@@ -1,5 +1,5 @@
 # TP Tic-Tac-Toe : Feature Branch Workflow
-
+En tant qu'être humain, nous recherchons toujours des méthodes de travail qui nous permettent d'être plus efficaces, de mieux collaborer et de contrôler nos processus de développement. Le Feature Branch Workflow répond à ces besoins en offrant une approche structurée et flexible pour la gestion du code. Voici comment ce workflow peut être bénéfique, ainsi que les défis potentiels auxquels il peut être confronté :
 # Avantages :
 Isolation des Fonctionnalités : Une des forces du Feature Branch Workflow réside dans sa capacité à isoler chaque nouvelle fonctionnalité ou correction de bogue dans une branche distincte. Cela offre aux développeurs un environnement de travail sécurisé où ils peuvent expérimenter et créer sans craindre de perturber le code de la branche principale.
 
