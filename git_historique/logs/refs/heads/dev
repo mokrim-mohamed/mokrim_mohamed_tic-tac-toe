@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 b229e28ace98531b79583cb9c3bf7166d6be08d0 Nemmassi <ayoub@feerik.com> 1712513214 +0200	commit (initial): Initialisation du projet
+b229e28ace98531b79583cb9c3bf7166d6be08d0 b229e28ace98531b79583cb9c3bf7166d6be08d0 Nemmassi <ayoub@feerik.com> 1712513251 +0200	Branch: renamed refs/heads/master to refs/heads/dev
+b229e28ace98531b79583cb9c3bf7166d6be08d0 4b9c877748e0bc1236bad8a3fca3b4d626f095ce Nemmassi <ayoub@feerik.com> 1712522578 +0200	commit: edit jenkinsfile
+4b9c877748e0bc1236bad8a3fca3b4d626f095ce c425f67b26a6f257bbd38e9870b90d131c79def8 Nemmassi <ayoub@feerik.com> 1712522814 +0200	commit: edit jenkinsfile 2
+c425f67b26a6f257bbd38e9870b90d131c79def8 094683dbe591115e77c85988e6da3335f85013ba Nemmassi <ayoub@feerik.com> 1712525033 +0200	commit: edit jenkinFILE to test autobuild
+094683dbe591115e77c85988e6da3335f85013ba 5e631a30713e16a611c9a433ecd040ca99f1fef0 Nemmassi <ayoub@feerik.com> 1712526153 +0200	commit: edit jenkinFILE and app test

@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "tictac"]
+	url = http://localhost:8080/root/mokrim_mohamed_tic-tac-toe
+	fetch = +refs/heads/*:refs/remotes/tictac/*
+[branch "dev"]
+	remote = tictac
+	merge = refs/heads/dev
