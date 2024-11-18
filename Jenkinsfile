@@ -20,7 +20,18 @@ pipeline {
             }
         }
 
-
+        stage('Envoi d\'email') {
+            steps {
+                script {
+                    // Envoi de l'email de notification
+                    emailext(
+                        subject: "Test de Jenkins - Notification",
+                        body: "Le pipeline Jenkins a été exécuté avec succès.",
+                        to: "mokrimmohamed2016@gmail.com"
+                    )
+                }
+            }
+        }
     }
 
     post {
@@ -32,7 +43,11 @@ pipeline {
         }
         failure {
             echo 'Le pipeline a échoué.'
-
+            emailext(
+                subject: "Échec du pipeline Jenkins",
+                body: "Le pipeline Jenkins a échoué. Veuillez vérifier les logs pour plus de détails.",
+                to: "${RECIPIENT_EMAIL}"
+            )
         }
     }
 }
