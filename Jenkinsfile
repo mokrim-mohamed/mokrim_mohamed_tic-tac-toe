@@ -27,7 +27,7 @@ pipeline {
                     emailext(
                         subject: "Test de Jenkins - Notification",
                         body: "Le pipeline Jenkins a été exécuté avec succès.",
-                        to: "${RECIPIENT_EMAIL}"
+                        to: "mokrimmohamed2016@gmail.com"
                     )
                 }
             }
